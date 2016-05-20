@@ -81,7 +81,7 @@
 	<section>
 		<div class="container-fluid splash">
 		<h1>Bienvenido a mi pagina</h1>
-		<button>OK</button>
+		<a href="#formulario"><button>OK</button></a>
 		</div>
 	</section>
 
@@ -118,38 +118,62 @@
 
 	
 	<section>
-		<div class="container separarmarg center">
-			<h2>Contactame</h2>
-			<form action="" class="row">
+		<div class="container separarmarg" id="formulario">
+			<h2 class="center">Contactame</h2>
+			<form action="" class="row formulario">
 				<div class="col-md-6">
 					<label for="nombre">Nombre
-						<input type="text" name="nombre">
+						
+						<input type="text" name="nombre" placeholder="Eli Bermudez">
 					</label>
 					<label for="correo">Correo
-						<input type="email" name="correo">
+						
+						<input type="text" name="correo"placeholder="bermudez.86@live.com.mx">
 					</label>
 					<label for="telefono">Telefono
-						<input type="text" name="telefono">
+						
+						<input type="text" name="telefono"placeholder="0000000000">
 					</label>
-					<div class="row">
-						<label for="" class="col-md-4">
-							<input type="text" id="input">
+					<div class="row center">
+						<label for="dia" class="col-md-4">Dia
+							<input type="number" name="dia"placeholder="29">
 						</label>
-						<label for="" class="col-md-4">
-							<input type="text" id="input">
+						<label for="mes" class="col-md-4">Mes
+							<input type="number" name="mes"placeholder="04">
 						</label>
-						<label for="" class="col-md-4">
-							<input type="text" id="input">
+						<label for="anio" class="col-md-4">Año
+							<input type="number" name="anio"placeholder="1900">
 						</label>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<input type="text">
+					<label for="comentarios">Comentarios
+						<textarea name="comentarios"placeholder="Comentarios">
+						</textarea>
+					</label>
+
+					<!--<input type="button" value="Enviar">-->
+					<button class="boton1">Enviar</button>
 				</div>
 			</form>
 		</div>
 	</section>
 
+	<footer>
+		<div class="container separarmarg separarmargbot">
+		<div class="row center">
+			<div class="col-md-4">
+				<img class="footerlogo" src="img/mundo2.png" alt="">
+			</div>
+			<div class="col-md-4">
+				<p>Terminos y Condiciones</p>
+			</div>
+			<div class="col-md-4">
+				<p>Aviso de Privacidad</p>
+			</div>
+		</div>
+		</div>
+	</footer>
 
 
 <!-- Esto es para Google Font -->

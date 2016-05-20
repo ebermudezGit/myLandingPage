@@ -32,7 +32,7 @@ p{
 	text-shadow: 0px 0px 25px #000000;
 }
 
-.splash button{
+.splash button,.boton1{
 	color: #E8E8E8;
 	background-color: rgba(37, 36, 36, 0.87);
 	border: 2px solid #A5A5A5;
@@ -41,7 +41,7 @@ p{
 	height: 50px;
 }
 
-.splash button:hover{
+.splash button:hover,.boton1:hover{
 	color: #FFFFFF;
 	background-color: rgba(37, 36, 36, .95);
 	width: 115px;
@@ -54,7 +54,10 @@ nav{
 }
 
 .separarmarg{
-	margin-top: 50px;
+	margin-top: 60px;
+}
+.separarmargbot{
+	margin-bottom: 30px;
 }
 
 .center{
@@ -64,4 +67,36 @@ nav{
 	border:0;
 	width:80%;
 	height:25%;
+}
+
+.formulario label, .formulario input,.formulario textarea{
+	display: block;
+}
+.formulario input,.formulario textarea{
+	margin-bottom: 10px;
+	color: #292929;
+	width: 100%;
+	padding:0 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #000000;
+	font-size: 1.2rem;
+}
+.formulario input:hover,.formulario input:focus
+,.formulario textarea:hover,.formulario textarea:focus{
+	box-shadow: 0px 0px 8px #006D72;
+	border: 2px solid #000000;
+}
+
+.formulario textarea{
+	height: 150px;
+}
+
+.formulario button{
+	display: block;
+	margin: 0 auto;
+	font-family: 'Fredericka the Great';
+}
+
+.footerlogo{
+	max-height: 100px;
 }
