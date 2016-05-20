@@ -86,7 +86,7 @@
 	</section>
 
 	<section>
-	 <div class="container-fluid">
+	 <div class="container">
 		<div class="row separarmarg">
 			<div class="col-md-4">
 				<h2>Mision</h2>
@@ -120,29 +120,29 @@
 	<section>
 		<div class="container separarmarg" id="formulario">
 			<h2 class="center">Contactame</h2>
-			<form action="" class="row formulario">
+			<form action="valida.html" method="POST" class="row formulario" name="formulario">
 				<div class="col-md-6">
 					<label for="nombre">Nombre
 						
-						<input type="text" name="nombre" placeholder="Eli Bermudez">
+						<input type="text" name="nombre" id="nombre" placeholder="Eli Bermudez">
 					</label>
 					<label for="correo">Correo
 						
-						<input type="text" name="correo"placeholder="bermudez.86@live.com.mx">
+						<input type="text" name="correo" id="correo" placeholder="bermudez.86@live.com.mx">
 					</label>
 					<label for="telefono">Telefono
 						
-						<input type="text" name="telefono"placeholder="0000000000">
+						<input type="text" name="telefono" id="telefono" placeholder="0000000000">
 					</label>
 					<div class="row center">
 						<label for="dia" class="col-md-4">Dia
-							<input type="number" name="dia"placeholder="29">
+							<input type="number" name="dia" id="dia" placeholder="29">
 						</label>
 						<label for="mes" class="col-md-4">Mes
-							<input type="number" name="mes"placeholder="04">
+							<input type="number" name="mes" id="mes" placeholder="04">
 						</label>
 						<label for="anio" class="col-md-4">Año
-							<input type="number" name="anio"placeholder="1900">
+							<input type="number" name="anio" id="anio" placeholder="1900">
 						</label>
 					</div>
 				</div>
@@ -199,5 +199,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<!-- JavaScript Main -->
+<link rel="stylesheet" href="javascript/main.js">
 </body>
 </html>
