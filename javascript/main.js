@@ -7,5 +7,5 @@ function validarFormulario(evObject){
  var telefono = document.getElementById('telefono').value;
  if(nombre=="")alert("Nombre esta vacio")
  else if(correo=="")alert("El Correo esta vacio")
-
+ 	
 }
